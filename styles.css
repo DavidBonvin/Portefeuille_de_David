@@ -32,16 +32,86 @@ header {
     min-width: 320px;
     height: 100vh;
     text-align: center;
-    background: linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);;
+    background: 
 
     
 
 }
 .header_icon_desplegable{
     align-self: flex-start;
-    padding: 1.5em;
+    padding: 2em 0em 0em 2.9em;
 }
 .header_icon_in{
     align-self: flex-end;
     padding: 1.5em;
+}
+.header_images_title {
+
+    padding: 1em;
+}
+.foto_david{
+    width: 40%;
+    height: 40%;
+}
+.header_images_title img{
+ 
+ 
+}
+.image-developer{
+    width: 100%;
+    padding: 0.2em 1em 0.2em 2.9em;
+    
+}
+.header_h1 {
+    font-size: 2em;
+    padding: 30px 0px 0px 0px;
+}
+
+/* section Qui suis-je?*/
+
+.Qui_suis-je h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+
+}
+.Qui_suis-je p {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+    
+
+.buttonCV {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+    width: 220px;
+    height: 60px;
+    margin-left:auto ;
+    margin-right:auto;
+  
+    background-color:#518DE7 @ 0%
+    rgba(91, 154, 249, 0) @ 100%;
+}
+.competences h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.Competences_icons img {
+    margin-left:auto ;
+    margin-right:auto;
+    
+}
+
+
+
+/* Footer */
+footer h1 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
 }
