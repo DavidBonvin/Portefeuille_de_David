@@ -32,9 +32,7 @@ header {
     min-width: 320px;
     height: 100vh;
     text-align: center;
-    background: 
-
-    
+    background:  
 
 }
 .header_icon_desplegable{
@@ -93,25 +91,75 @@ header {
     margin-left:auto ;
     margin-right:auto;
   
-    background-color:#518DE7 @ 0%
-    rgba(91, 154, 249, 0) @ 100%;
+   
 }
 .competences h1 {
     text-align: center;
     padding-top: 50px;
     padding-bottom: 30px;
 }
-.Competences_icons img {
-    margin-left:auto ;
-    margin-right:auto;
+.Competences_icons{
     
+display: flex;
+
+justify-content: space-around;
+margin: 15px;
+
+
+
+
 }
+.Competences_icons2 {
+    display: flex;
+
+    justify-content: space-around;
+    margin: 15px;
+
+}
+.Competences_icons3 {
+    display: flex;
+
+    justify-content: space-around;
+    margin: 15px;
+}
+
+/* Formation */
+.formations h1 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.formations h2 {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+ 
+.formation__image__afpa {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formation__image__platzi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 
 /* Footer */
 footer h1 {
     text-align: center;
-    padding-top: 50px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+footer h2{
+    font-size: medium;
+    text-align: center;
+}
+.footer__icons{
+    display: flex;
+    justify-content: space-around;
 }
